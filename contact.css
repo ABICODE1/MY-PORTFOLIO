@@ -1,0 +1,220 @@
+/* Reset CSS for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+/* Container styles */
+.banner {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.5) 50%, rgba(0, 0, 0, 0.5) 50%), url('Y.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.content {
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: #fff;
+    position: relative;
+}
+
+/* Header styles */
+.content h1 {
+    font-family: "Times New Roman";
+    font-size: 50px;
+    padding-left: 20px;
+    margin-top: 0%;
+    letter-spacing: 2px;
+    text-transform: uppercase; /* Added uppercase text */
+}
+
+/* Contact Info styles */
+.contact-info {
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+}
+
+.contact-info p {
+    margin: 5px 0;
+}
+
+/* Contact Form styles */
+.contact form {
+    width: 250px;
+    height: auto;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.8) 50%, rgba(0, 0, 0, 0.8) 50%);
+    position: absolute;
+    top: 100px;
+    left: 910px;
+    border-radius: 10px;
+    padding: 25px;
+    z-index: 2;
+}
+/* Rest of your CSS rules */
+
+/* Container for the contact form */
+.contact-container {
+    width: 800px; /* Adjust the width as needed */
+    margin: 0 auto;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Add a shadow */
+    position: relative;
+    z-index: 2;
+}
+
+.contact-container h1 {
+    font-family: "Times New Roman";
+    font-size: 50px;
+    padding-left: 20px;
+    margin-top: 0%;
+    letter-spacing: 2px;
+}
+
+.contact-container .par {
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+}
+
+/* Rest of your contact form styles */
+
+
+.contact form h2 {
+    width: 220px;
+    font-family: sans-serif;
+    text-align: center;
+    color: blue;
+    font-size: 22px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+}
+
+.contact form input {
+    width: 100%;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid blue;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 15px;
+    font-family: sans-serif;
+    padding: 5px;
+}
+
+.contact form input:focus {
+    outline: none;
+}
+
+::placeholder {
+    color: #fff;
+    font-family: Arial;
+}
+
+.contact form textarea {
+    width: 100%;
+    background: transparent;
+    border: 1px solid blue;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 15px;
+    font-family: sans-serif;
+    padding: 5px;
+}
+
+/* Button styles */
+.btn {
+    width: 100%;
+    height: 40px;
+    background: blue;
+    border: none;
+    margin-top: 15px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #fff;
+    text-transform: uppercase; /* Added uppercase text */
+}
+
+.btn:hover {
+    color: blue;
+    background: #fff;
+}
+
+/* Link styles */
+.link {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.link a {
+    text-decoration: none;
+    color: blue;
+}
+
+.link {
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+/* Social Media Icons styles */
+.icon a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.icon ion-icon {
+    color: #fff;
+    font-size: 30px;
+    padding-left: 14px;
+    padding-top: 5px;
+    transition: 0.3s ease;
+}
+
+.icons ion-icon:hover {
+    color: blue;
+}
+
+footer {
+    background-color: #808080; /* Gray background */
+    color: white; /* Text color */
+    text-align: center; /* Center the text */
+    padding: 20px; /* Add some padding */
+    position: relative; /* Positioning */
+    bottom: 0; /* Stick to the bottom */
+    width: 100%; /* Full width */
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2); /* Optional shadow for depth */
+}
+
+footer p {
+    margin: 0; /* Remove default margin */
+    font-family: Arial, sans-serif; /* Font style */
+    font-size: 14px; /* Font size */
+}
